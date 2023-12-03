@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block title %} Направления {% endblock %} {% block
+main %}
+<section class="elements">
+  {% for c in cards %}
+  <div class="elements__item">
+    <a href="/planet/{{c.id}}">
+      <img
+        class="elements__image"
+        src="/static/images/{{c.image}}"
+        alt="{{ c.name }}"
+    /></a>
+
+    <div class="elements__caption">
+      <h2 class="elements__title">{{ c.name }}</h2>
+      <p class="elements__title">{{ c.price }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+{% endblock %}
