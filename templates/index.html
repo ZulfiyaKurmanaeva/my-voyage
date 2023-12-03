@@ -1,13 +1,15 @@
 {% extends 'base.html' %} {% block title %} Главная {% endblock %} {% block main
 %}
 <section class="index-page">
-  <h1 class="header__text index-header">space travel</h1>
-  <p class="index-text">
-    Компания SPACE TRAVEL предлагает Вам отправиться в незабываемое путешествие
-    в самые привлекательные уголки нашей Вселенной
-  </p>
-  <p class="index-text">
-    Просто выберите планету, которую Вы хотели бы посетить
-  </p>
+  <a href="./planets" class="index__link">
+    <h1 class="index-header">space travel</h1>
+    <p class="index-text">
+      Компания SPACE TRAVEL предлагает Вам отправиться в незабываемое
+      путешествие в самые привлекательные уголки нашей Вселенной
+    </p>
+    <p class="index-text">
+      Просто выберите планету, которую Вы хотели бы посетить
+    </p>
+  </a>
 </section>
 {% endblock %}
