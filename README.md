@@ -6,5 +6,7 @@
 
 Стек: HTML, Python, Flask, SQLite.
 
+Ссылка на репозиторий: https://github.com/ZulfiyaKurmanaeva/my-voyage
+
 Скрин страницы:
 <img src="./static/images/scrin.JPG">
